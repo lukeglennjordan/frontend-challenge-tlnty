@@ -1,1 +1,3 @@
-export default function RecipientsDisplay() {}
+export default function RecipientsDisplay() {
+  console.log('Recipients')
+}
