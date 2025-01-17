@@ -94,4 +94,20 @@ export default styled(AuditTable)`
   .align-right {
     text-align: right;
   }
+
+  .outer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 5px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+  }
 `
